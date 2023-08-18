@@ -1,0 +1,58 @@
+body {
+    position: relative;
+    background: url(imagens/fundo-esgoto.jpg) no-repeat;
+    background-size: cover;
+    height: 98vh;
+}
+.barata {
+    width: 150px;
+    height: 130px;
+    background: url(imagens/Barata1.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.container {
+    height: 98vh;
+    text-align: center;
+    margin: 0 auto;
+}
+.form {
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+[data-jogo="iniciar"] {
+    padding: 12px 18px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    background: #F4435B;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+[data-jogo="iniciar"]:hover {
+    background: #F53246;
+}
+.reiniciar {
+    padding: 12px 18px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    background: #404040;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+.reiniciar:hover {
+    background: #595959;
+}
+@media (max-width: 600px) {
+    .container img {
+        width: 370px;
+    }
+}
