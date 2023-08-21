@@ -57,7 +57,7 @@ function criaBarata() {
 
     const barata = document.createElement('img');
     barata.style.position = "absolute"
-    barata.src = "imagens/barata1.png"
+    barata.src = "imagens/barata1.svg"
     barata.classList.add(barataTamanho())
     barata.classList.add(barataRotacao())
     barata.style.top = posicaoY + 'px';
