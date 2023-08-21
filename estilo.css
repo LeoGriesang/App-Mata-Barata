@@ -22,6 +22,7 @@ body {
     font-size: 1rem;
     border: none;
     cursor: pointer;
+    margin-left: 15px;
 }
 [data-jogo="iniciar"] {
     padding: 12px 18px;
@@ -33,6 +34,7 @@ body {
     color: #ffffff;
     cursor: pointer;
     font-weight: bold;
+    margin-left: 15px;
 }
 [data-jogo="iniciar"]:hover {
     background: #F53246;
@@ -51,8 +53,33 @@ body {
 .reiniciar:hover {
     background: #595959;
 }
+.btn-margin {
+    margin-right: 50px;
+}
 @media (max-width: 600px) {
-    .container img {
-        width: 370px;
+    .img-game {
+        width: 372px;
+        height: 343px;
+    }
+    .img-vitoria {
+        width: 377px;
+        height: 231px;
+    }
+    .img-game-over {
+        width: 308px;
+        height: 371px;
+    }
+    .btn-margin {
+        margin-right: 30px;
+    }
+}
+@media (max-width: 360px) {
+    .img-game {
+        width: 272px;
+        height: 252px;
+    }
+    .img-vitoria {
+        width: 276px;
+        height: 169px;
     }
 }
