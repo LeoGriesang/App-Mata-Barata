@@ -85,7 +85,7 @@ body#cursor-jogo {
 
 .container-info {
     position: absolute;
-    bottom: 0px;
+    top: 0px;
     background: #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
