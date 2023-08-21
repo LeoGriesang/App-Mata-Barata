@@ -4,6 +4,9 @@ body {
     background-size: cover;
     height: 98vh;
 }
+body#cursor-jogo {
+    cursor: url(imagens/mata_mosca.png) 30 30, auto;
+}
 .barata {
     width: 150px;
     height: 130px;
@@ -78,6 +81,42 @@ body {
 .tamanho3 {
     width: 90px;
     height: 90px;
+}
+
+.container-info {
+    position: absolute;
+    bottom: 0px;
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+h3 {
+    padding: 0;
+    margin: 0;
+}
+.tempo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tempo span{
+    margin-top: 2px;
+    margin-left: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.creditos {
+    position: absolute;
+    bottom: 0px;
+}
+.creditos h3{
+    color: #F4435B;
+    font-size: 1.2rem;
+}
+.creditos span{
+    color: #ffffff;
+    font-size: 0.9rem;
 }
 
 @media (max-width: 600px) {

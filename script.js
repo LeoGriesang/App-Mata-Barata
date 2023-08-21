@@ -44,7 +44,7 @@ function criaBarata() {
         if(vidas > 3) {
             window.location.href = 'fim_de_jogo.html'
         }else {
-            document.querySelector('#vidas').innerText = vidas;
+            document.getElementById('v' + vidas).src = "imagens/coracao_vazio.png";
             vidas++;
         }
     }

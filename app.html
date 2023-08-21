@@ -6,15 +6,21 @@
     <title>MATA BARATA</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
-    <div>
-        tempo:
-        <span id="cronometro"></span>
-    </div>
-    <div>
-        vidas:
-        <span id="vidas"></span>
-    </div>
+<body id="cursor-jogo">
+    <div class="container-info">
+        <div>
+            <div class="vidas">
+				<img id="v1" src="imagens/coracao_cheio.png">
+				<img id="v2" src="imagens/coracao_cheio.png">
+				<img id="v3" src="imagens/coracao_cheio.png">
+			</div>
+        </div>
+
+        <div class="tempo">
+            <h3>Tempo restante:</h3>
+            <span id="cronometro">12</span>
+        </div>
+    </div>    
     <script src="./script.js"></script>
 </body>
 </html>
