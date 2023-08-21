@@ -135,6 +135,10 @@ h3 {
     .btn-margin {
         margin-right: 30px;
     }
+    .creditos {
+        position: absolute;
+        bottom: 70px;
+    }
 }
 @media (max-width: 360px) {
     .img-game {
